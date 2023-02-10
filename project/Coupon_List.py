@@ -1,3 +1,3 @@
-class Coupon_list():
+class CouponList():
     def __init__(self, type):
-        self.type = type
+        self.__type = type

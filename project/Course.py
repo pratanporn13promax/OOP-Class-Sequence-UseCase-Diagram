@@ -1,15 +1,15 @@
 class Course():
     def __init__(self, id, name, short_description, date, language, purpose, content, requirement, description, target, price, info):
-        self.id = id
-        self.name = name
-        self.short_description = short_description
-        self.date = date
-        self.language = language
-        self.purpose = purpose
-        self.content = content
-        self.requirement = requirement
-        self.description = description
-        self.target = target
-        self.price = price
-        self.info = info
+        self._id = id
+        self._name = name
+        self._short_description = short_description
+        self._date = date
+        self._language = language
+        self._purpose = purpose
+        self._content = content
+        self._requirement = requirement
+        self._description = description
+        self._target = target
+        self._price = price
+        self._info = info
         

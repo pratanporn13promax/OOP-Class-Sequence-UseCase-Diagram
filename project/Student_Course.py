@@ -1,3 +1,3 @@
-class Student_Course():
+class StudentCourse():
     def __init__(self, progress):
-        self.progress = progress
+        self.__progress = progress

@@ -1,24 +1,24 @@
 class Coupon():
     def __init__(self, id, passcode, start_date, end_date):
-        self.id = id
-        self.passcode = passcode
-        self.start_date = start_date
-        self.end_date = end_date
+        self._id = id
+        self._passcode = passcode
+        self._start_date = start_date
+        self._end_date = end_date
         
-class Coupon_Course(Coupon):
+class CouponCourse(Coupon):
     def __init__(self, id, passcode, start_date, end_date, condition, target):
         super().__init__(id, passcode, start_date, end_date)
-        self.target = target
-        self.condition = condition
+        self.__target = target
+        self.__condition = condition
 
-class Coupon_Instructor(Coupon):
+class CouponInstructor(Coupon):
     def __init__(self, id, passcode, start_date, end_date, condition, target):
         super().__init__(id, passcode, start_date, end_date)
-        self.target = target
-        self.condition = condition
+        self.__target = target
+        self.__condition = condition
 
-class Coupon_All(Coupon):
+class CouponAll(Coupon):
     def __init__(self, id, passcode, start_date, end_date, condition, target):
         super().__init__(id, passcode, start_date, end_date)
-        self.target = target
-        self.condition = condition
+        self.__target = target
+        self.__condition = condition
