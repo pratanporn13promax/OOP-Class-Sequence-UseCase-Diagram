@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-18T15:47:22.499Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="G5JoNRcpUTmj4cT4EZmP" version="20.8.19" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-18T16:13:45.296Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="vuJiKcM8Z0cJMYj0H0XP" version="20.8.19" type="github">
   <diagram name="Page-1" id="NdD3XxwZcL9HfhGW4-kb">
-    <mxGraphModel dx="1128" dy="850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1071" dy="1950" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -81,7 +81,7 @@
         <mxCell id="CaHp7utGRdH5ZOx2nv2D-17" value="Apply coupon" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="355" y="770" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="CaHp7utGRdH5ZOx2nv2D-18" value="Cancel payment" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="CaHp7utGRdH5ZOx2nv2D-18" value="Refund" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="355" y="920" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="CaHp7utGRdH5ZOx2nv2D-19" value="Return payment" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -290,6 +290,27 @@
             <mxPoint x="175" y="551.27998046875" as="sourcePoint" />
             <mxPoint x="155" y="210" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="uCcxKJv_lWvvPXpsHtyw-1" value="Login" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="175" y="-90" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uCcxKJv_lWvvPXpsHtyw-2" value="Register" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uCcxKJv_lWvvPXpsHtyw-3" value="System" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="790" y="1370" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uCcxKJv_lWvvPXpsHtyw-5" value="Notification" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="535" y="1360" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uCcxKJv_lWvvPXpsHtyw-6" value="Add Payment Methods" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="775" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uCcxKJv_lWvvPXpsHtyw-7" value="View Purchase History" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="55" y="900" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uCcxKJv_lWvvPXpsHtyw-8" value="View Refunds &lt;br&gt;History" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="55" y="1000" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
