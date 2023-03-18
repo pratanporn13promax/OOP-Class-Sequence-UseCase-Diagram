@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-18T16:13:45.296Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="vuJiKcM8Z0cJMYj0H0XP" version="20.8.19" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-18T16:14:11.925Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="maCJ-gHm2pGYaIVQtrnO" version="20.8.19" type="github">
   <diagram name="Page-1" id="NdD3XxwZcL9HfhGW4-kb">
     <mxGraphModel dx="1071" dy="1950" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -292,10 +292,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="uCcxKJv_lWvvPXpsHtyw-1" value="Login" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="175" y="-90" width="120" height="80" as="geometry" />
+          <mxGeometry x="230" y="-150" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="uCcxKJv_lWvvPXpsHtyw-2" value="Register" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" width="120" height="80" as="geometry" />
+          <mxGeometry x="320" y="-50" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="uCcxKJv_lWvvPXpsHtyw-3" value="System" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="790" y="1370" width="30" height="60" as="geometry" />
